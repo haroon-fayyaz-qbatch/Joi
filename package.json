@@ -1,0 +1,22 @@
+{
+  "name": "joi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haroon-fayyaz-qbatch/Joi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haroon-fayyaz-qbatch/Joi/issues"
+  },
+  "homepage": "https://github.com/haroon-fayyaz-qbatch/Joi#readme",
+  "dependencies": {
+    "joi": "^17.4.2"
+  }
+}
