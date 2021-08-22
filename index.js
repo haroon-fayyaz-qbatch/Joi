@@ -49,7 +49,7 @@ const validateData = async() => {
         });
         console.log('Value: ', value);
     } catch (err) {
-        console.error('Welcome to error: ', err);
+        console.error('error: ', err);
     }
 
     const schema2 = Joi.date()
@@ -57,9 +57,10 @@ const validateData = async() => {
         .max('12-31-2015')
         .iso();
     try {
-        Joi.assert('2015-14-01', schema2);
+        const result = Joi.assert('2015-12-01', schema2);
+        console.log('Assert: ', result);
     } catch (err) {
-        console.error('Welcome to error: ', err);
+        console.error('error2: ', err);
     }
 
 
